@@ -24,7 +24,7 @@ spec:
           valueFrom:
             secretKeyRef:
               name: encontros-tech-secrets
-              key: database-url
+              key: DATABASE_URL
         - name: APP_TITLE
           value: "Encontros Tech"
         - name: DEBUG
